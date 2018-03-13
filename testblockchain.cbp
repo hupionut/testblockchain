@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="testblockchain" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/testblockchain" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add option="-lssl -lcrypto" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+					<Add library="/lib/x86_64-linux-gnu/libssl.so.1.0.0" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/testblockchain" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions -lssl -lcrypto" />
+		</Compiler>
+		<Unit filename="include/Block.h" />
+		<Unit filename="include/BlockChain.h" />
+		<Unit filename="include/Transaction.h" />
+		<Unit filename="include/TransactionInput.h" />
+		<Unit filename="include/TransactionOutput.h" />
+		<Unit filename="include/Wallet.h" />
+		<Unit filename="include/base64.h" />
+		<Unit filename="include/ecc.h" />
+		<Unit filename="include/sha512.h" />
+		<Unit filename="include/utils.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/BlockChain.cpp" />
+		<Unit filename="src/Transaction.cpp" />
+		<Unit filename="src/TransactionInput.cpp" />
+		<Unit filename="src/TransactionOutput.cpp" />
+		<Unit filename="src/Wallet.cpp" />
+		<Unit filename="src/base64.cpp" />
+		<Unit filename="src/ecc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/sha512.cpp" />
+		<Unit filename="src/utils.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

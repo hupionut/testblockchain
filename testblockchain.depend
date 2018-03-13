@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1520914444 source:/home/hue/Documents/projects/cplusplustest/testblockchain/main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"BlockChain.h"
+	"Wallet.h"
+
+1520873918 /home/hue/Documents/projects/cplusplustest/testblockchain/include/Block.h
+	<string>
+	<cstdint>
+
+1520913913 /home/hue/Documents/projects/cplusplustest/testblockchain/include/utils.h
+	<iostream>
+	<string>
+
+1520539740 source:/home/hue/Documents/projects/cplusplustest/testblockchain/src/Block.cpp
+	<iostream>
+	<string>
+	"Block.h"
+	"utils.h"
+	"sha512.h"
+
+1520439228 /home/hue/Documents/projects/cplusplustest/testblockchain/include/sha512.h
+	<string>
+
+1520439272 source:/home/hue/Documents/projects/cplusplustest/testblockchain/src/sha512.cpp
+	<cstring>
+	<fstream>
+	"sha512.h"
+
+1520913900 source:/home/hue/Documents/projects/cplusplustest/testblockchain/src/utils.cpp
+	<iostream>
+	<string>
+	<time.h>
+	"utils.h"
+
+1520879612 /home/hue/Documents/projects/cplusplustest/testblockchain/include/BlockChain.h
+	<iostream>
+	<string>
+	<vector>
+	<cstdint>
+	"Block.h"
+
+1520883564 source:/home/hue/Documents/projects/cplusplustest/testblockchain/src/BlockChain.cpp
+	<iostream>
+	"BlockChain.h"
+	"utils.h"
+	"sha512.h"
+
+1520914526 source:/home/hue/Documents/projects/cplusplustest/testblockchain/src/Wallet.cpp
+	<iostream>
+	<string>
+	<openssl/bio.h>
+	<openssl/err.h>
+	<openssl/ec.h>
+	<openssl/pem.h>
+	"Wallet.h"
+	"utils.h"
+	"ecc.h"
+
+1520914524 /home/hue/Documents/projects/cplusplustest/testblockchain/include/Wallet.h
+	<string>
+	"ecc.h"
+
+1520913434 source:/home/hue/Documents/projects/cplusplustest/testblockchain/src/ecc.c
+	"ecc.h"
+	<string.h>
+	<windows.h>
+	<wincrypt.h>
+	<sys/types.h>
+	<fcntl.h>
+	<unistd.h>
+
+1520913451 /home/hue/Documents/projects/cplusplustest/testblockchain/include/ecc.h
+	<stdint.h>
+
+1520953290 source:/home/hue/Documents/projects/cplusplustest/testblockchain/src/base64.cpp
+	"base64.h"
+
+1520953234 /home/hue/Documents/projects/cplusplustest/testblockchain/include/base64.h
+	<string>
+
+1520955902 source:/home/hue/Documents/projects/cplusplustest/testblockchain/include/Transaction.h
+	<iostream>
+	<string>
+	<vector>
+	"ecc.h"
+	"TransactionInput.h"
+	"TransactionOutput.h"
+
+1520955710 /home/hue/Documents/projects/cplusplustest/testblockchain/include/TransactionInput.h
+
+1520955810 /home/hue/Documents/projects/cplusplustest/testblockchain/include/TransactionOutput.h
+
+1520964620 source:/home/hue/Documents/projects/cplusplustest/testblockchain/src/Transaction.cpp
+	<iostream>
+	<cstdint>
+	<string>
+	<cstring>
+	"ecc.h"
+	"Transaction.h"
+
+1520964321 /home/hue/Documents/projects/cplusplustest/testblockchain/include/Transaction.h
+	<iostream>
+	<string>
+	<vector>
+	"ecc.h"
+	"TransactionInput.h"
+	"TransactionOutput.h"
+
+1520955711 source:/home/hue/Documents/projects/cplusplustest/testblockchain/src/TransactionInput.cpp
+	"TransactionInput.h"
+
+1520955810 source:/home/hue/Documents/projects/cplusplustest/testblockchain/src/TransactionOutput.cpp
+	"TransactionOutput.h"
+
