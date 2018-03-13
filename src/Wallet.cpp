@@ -25,8 +25,8 @@ Wallet::~Wallet()
 
 void Wallet::printKeys()
 {
-    std::cout << "public key:" + publicKey << std::endl;
-    std::cout << "private key:" + privateKey << std::endl;
+    std::cout << "pubkey:" + publicKey << std::endl;
+    std::cout << "prikey:" + privateKey << std::endl;
 }
 
 void Wallet::GenerateKeyPair()

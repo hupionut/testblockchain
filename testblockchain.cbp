@@ -48,6 +48,7 @@
 		<Unit filename="include/Wallet.h" />
 		<Unit filename="include/base64.h" />
 		<Unit filename="include/ecc.h" />
+		<Unit filename="include/picosha2.h" />
 		<Unit filename="include/sha512.h" />
 		<Unit filename="include/utils.h" />
 		<Unit filename="main.cpp" />
